@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "omp-worker": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "omp-worker-mcp"],
+      "env": {
+        "OMP_WORKER_OMP_COMMAND": "omp"
+      },
+      "enabled": true
+    }
+  }
+}

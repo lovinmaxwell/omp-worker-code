@@ -1,0 +1,21 @@
+{
+  "name": "omp-worker-code",
+  "displayName": "OMP Worker",
+  "version": "0.1.0",
+  "description": "Delegate background coding tasks from Claude Code, Claude Desktop, or Cursor to local Oh My Pi (OMP) workers via omp-worker-mcp. Requires Node.js 22+ and an installed, authenticated `omp` CLI on the Mac.",
+  "author": {
+    "name": "Lovin Maxwell",
+    "email": "lovinmaxwell@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "omp",
+    "oh-my-pi",
+    "mcp",
+    "claude",
+    "worker",
+    "mac"
+  ],
+  "logo": "assets/logo.png",
+  "skills": "./skills/"
+}
